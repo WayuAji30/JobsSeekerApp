@@ -92,7 +92,7 @@ function Jobs() {
         {
           Data.map(({id,image,title,time,location,desc,company}) => {
             return(
-        <div key={id} className="group group/item singleJob w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-blueColor shadow-lg shadow-greyIsh-400/700 hover:shadow-lg">
+        <div key={id} className="group group/item singleJob w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-blueColor shadow-lg shadow-greyIsh-400/700 hover:shadow-lg transition-all duration-300">
           <span className="flex justify-between items-center gap-4">
             <h1 className="text-[16px] font-semibold text-textColor group-hover:text-white">{title}</h1>
             <span className="flex items-center text-[#ccc] gap-1">
