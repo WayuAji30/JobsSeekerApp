@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "./components/NavBar/NavBar";
 import Seacrh from "./components/Search/Search";
 import Jobs from "./components/JobDiv/Jobs";
